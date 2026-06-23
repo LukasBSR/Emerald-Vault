@@ -1,14 +1,21 @@
 # EmeraldVault
 
-EmeraldVault is a Paper plugin that turns emeralds into a virtual bank economy with GUI banking, bank levels, savings, scheduled interest, player payments, auto-deposit, bank-funded villager trades, transaction history, Vault support, and PlaceholderAPI placeholders.
+EmeraldVault is a Bukkit/Paper plugin that turns emeralds into a virtual bank economy with GUI banking, bank levels, savings, scheduled interest, player payments, auto-deposit, bank-funded villager trades, transaction history, Vault support, and PlaceholderAPI placeholders.
 
 ## Requirements
 
-- Paper 1.21.x
 - Java 21
+- Minecraft 1.21.x
 - Optional: Vault
 - Optional: PlaceholderAPI
 - Optional: Essentials or another plugin that uses Vault economy
+
+## Supported Server Software
+
+- ✅ **Paper / Purpur / Pufferfish** — full support (recommended; built and tested on Paper)
+- ✅ **Spigot / CraftBukkit** — supported; the optional auto-open chat/sign amount input may fall back to typing the amount manually
+- ❌ **Folia** — not yet supported (planned)
+- ⚠️ **Bedrock players via Geyser** — playable, but custom GUI head textures may not render correctly
 
 The plugin jar is built as `EmeraldVault.jar`.
 
